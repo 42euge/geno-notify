@@ -1,0 +1,16 @@
+{
+  "name": "geno-notify",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Universal notification hub for the geno ecosystem",
+  "main": "lib/notify.js",
+  "exports": {
+    ".": "./lib/notify.js",
+    "./channels": "./lib/channels/index.js",
+    "./config": "./lib/config.js",
+    "./format": "./lib/format.js"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}
